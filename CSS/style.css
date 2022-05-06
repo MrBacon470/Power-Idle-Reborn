@@ -6,26 +6,30 @@
 
 :root {
     --power-color: #d9ff00;
+    --prestige-color: #6901fa;
+    --mastery-color: #fa0101;
+    --pollution-color: #000000;
+    --background-color: #303030;
 }
 /*Global*/
 * {
-    background-color: #202020;
+    background-color: var(--background-color);
     font-family: 'Roboto Mono';
     color: whitesmoke;
     font-size: 0.995em;
 }
 
 button {
-    border: 2px solid whitesmoke;
+    border: 2px solid var(--power-color);
     transition-duration: 0.2s;
     font-size: 0.995em;
 }
 
 button:hover {
     transition-duration: 0.2s;
-    border-color: whitesmoke;
-    background-color: whitesmoke;
-    color: #202020;
+    border-color: var(--power-color);
+    background-color: var(--power-color);
+    color: var(--background-color);
     cursor: pointer;
 }
 
@@ -68,3 +72,6 @@ img {width:32px;height: 32px;}
     align-content: center;
     text-align: center;
 }
+
+#pB {border-color: var(--prestige-color);}
+#pB:hover {border-color: var(--prestige-color);background-color: var(--prestige-color);}
