@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('RobotoMono-Medium.ttf');
+}
+
+
+:root {
+    --power-color: #d9ff00;
+}
+/*Global*/
+* {
+    background-color: #202020;
+    font-family: 'Roboto Mono';
+    color: whitesmoke;
+    font-size: 0.995em;
+}
+
+button {
+    border: 2px solid whitesmoke;
+    transition-duration: 0.2s;
+    font-size: 0.995em;
+}
+
+button:hover {
+    transition-duration: 0.2s;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    color: #202020;
+    cursor: pointer;
+}
+
+hr { border: 1px solid whitesmoke; }
+input { border: 2px solid whitesmoke; }
+img {width:32px;height: 32px;}
+/*Classes*/
+.mainArea {
+    margin-top: 1vh;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.currencyHolder {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    min-width: 3vw; 
+}
+
+.modalContainer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6969;
+    padding: 5px;
+    border: 4px solid #812626;
+}
+/*IDs*/
+#alert {
+    height: 100%;
+    display: none;
+    align-content: center;
+    text-align: center;
+}
