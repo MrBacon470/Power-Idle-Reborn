@@ -1,3 +1,5 @@
+
+
 function format(a) {
     if(data.settingsToggles[1]) {
         const standardPrefix = ['K','M','B','T','Qa','Qi','Sx','Sp','Oc','No','Dc']
@@ -53,14 +55,6 @@ function formatDate(a) {
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
-}
-function minimum(value, min){
-    if (value.lt(min)) value = D(min)
-    return value
-}
-function maximum(value, max){
-    if (value.gt(max)) value = D(max)
-    return value
 }
 function formatPrefix(a,b) {
     const prefixes = ['Kilo','Mega','Giga','Tera','Peta','Exa','Zetta','Yotta']
