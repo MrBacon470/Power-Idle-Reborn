@@ -19,7 +19,13 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <style>
 @import './assets/base.css';
-
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../CSS/RobotoMono-Medium.ttf');
+}
+* {
+  font-family: 'Roboto Mono';
+}
 #app {
   max-width: 1280px;
   margin: 0 auto;
