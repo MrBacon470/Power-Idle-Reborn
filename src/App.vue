@@ -21,7 +21,7 @@ import TheWelcome from './components/TheWelcome.vue'
 @import './assets/base.css';
 @font-face {
   font-family: 'Roboto Mono';
-  src: url('../CSS/RobotoMono-Medium.ttf');
+  src: url('/RobotoMono-Medium.ttf');
 }
 * {
   font-family: 'Roboto Mono';
